@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a:hover {
+    color: #007aff;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+/* Heading */
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    height: 500px;
+    width: auto;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.home {
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Vertically aligns items */
+    justify-content: flex-start; /* Aligns items to the left */
+    margin: 50px 100px; /* Adds spacing around the container */
+}
+
+.home-image {
+    height: 500px;
+    width: auto;
+    margin-right: 50px; /* Adds space between the image and text */
+}
+
+.home-text {
+    font-size: 20px;
+    line-height: 1.6; /* Increases spacing between lines for readability */
+    max-width: 400px; /* Optional: Limits text width */
+}
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column; /* Stacks image and text vertically */
+        align-items: center;
+    }
+
+    .home-image {
+        margin-right: 0; /* Removes horizontal spacing */
+        margin-bottom: 20px; /* Adds spacing below the image */
+    }
+
+    .home-text {
+        text-align: center; /* Centers text on smaller screens */
+    }
+}
+
