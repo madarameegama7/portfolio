@@ -1,45 +1,37 @@
 /* General styling for the navbar */
-ul.menu {
+ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: blue;
+                
+}
+
+/* Styling the nav links (centered with rounded background) */
+.menu {
     display: flex;
-    justify-content: center; /* Align items to the center */
-    align-items: center;
-    background-color: #f0f0f0; /* Optional background color for the navbar */
-    border-bottom: 1px solid #ddd; /* Optional bottom border */
-    overflow: hidden; /* Prevents overflow issues */
-    color: blue;
+    justify-content: center;
+    
+    margin: 0 auto;
 }
 
-/* Styling individual list items */
+
 .menu li {
-    margin: 0 20px; /* Add space between items */
+    padding: 0 40px;
 }
 
-/* Styling the nav links */
 .menu li a {
     text-decoration: none;
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 18px; /* Adjusted font size */
-    padding: 10px 15px; /* Add padding for better clickability */
-    border-radius: 5px; /* Optional rounded corners */
+    font-size: 20px;
 }
 
-/* Hover effect for links */
 .menu li a:hover {
     color: #555;
-    background-color: #e0e0e0; /* Optional hover background color */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-}
-@media (max-width: 768px) {
-    ul.menu {
-        flex-direction: column;
-    }
-
-    .menu li {
-        margin: 10px 0;
-    }
 }

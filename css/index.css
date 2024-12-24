@@ -73,8 +73,8 @@ h1 {
     }
 
     .home-image {
-        margin-right: 0; /* Removes horizontal spacing */
         margin-bottom: 20px; /* Adds spacing below the image */
+        justify-content: center;
     }
 
     .home-text {
@@ -297,5 +297,20 @@ h1 {
     .home-image {
         margin-right: 0; /* Remove margin for smaller screens */
     }
+}
+.mail-icon {
+    justify-content: center; /* Centers the icons horizontally */
+    align-items: center; /* Aligns the icons vertically */
+    gap: 15px; /* Adds space between icons */
+}
+
+
+
+.mail-icon:hover {
+    transform: scale(1.2);
+}
+
+footer{
+    margin-left: 500px;
 }
 
