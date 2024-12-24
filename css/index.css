@@ -42,7 +42,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
-img {
+.madara-image img {
     height: 500px;
     width: auto;
     margin-left: 200px;
@@ -80,5 +80,172 @@ img {
     .home-text {
         text-align: center; /* Centers text on smaller screens */
     }
+}
+.section-name p{
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.about-text h1{
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    margin-left: 250px;
+    text-align: justify;
+    margin-right: 250px;
+}
+/* Education Section */
+.education {
+    display: flex;
+    justify-content: space-between; /* Distribute space between SLIIT and UCSC */
+    align-items: flex-start; /* Align items to the top */
+    margin: 20px;
+}
+
+/* Container for each education block (SLIIT and UCSC) */
+.education-container {
+    display: flex;
+    flex: 1;  /* Ensure both containers take equal space */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Align content vertically */
+    margin: 0 10px;  /* Adds space between the two containers */
+}
+
+.sliit, .ucsc {
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;  /* Adds border around each container */
+    border-radius: 10px;  /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a slight shadow for visual effect */
+    display: flex;  /* Use flexbox for internal alignment */
+    flex-direction: column; /* Stack the image and paragraph vertically */
+    align-items: center; /* Center the content horizontally */
+}
+
+.sliit-logo, .ucsc-logo {
+    height: 150px;
+    width: auto;
+    margin-bottom: 15px; /* Adds space between the image and text */
+    margin-left: 30px;
+}
+
+.sliit p, .ucsc p {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    text-align: center; /* Centers text */
+}
+
+/* Ensures the text and content are centered in mobile view */
+@media (max-width: 768px) {
+    .education {
+        flex-direction: column; /* Stacks containers vertically on small screens */
+        align-items: center;
+    }
+
+    .education-container {
+        flex-direction: column;  /* Stacks the content vertically */
+        margin-bottom: 20px;  /* Adds space between the containers */
+    }
+
+    .sliit, .ucsc {
+        width: 80%;  /* Adjust width for mobile */
+    }
+}
+.social-icons {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center; /* Centers the icons horizontally */
+    align-items: center; /* Aligns the icons vertically */
+    gap: 15px; /* Adds space between icons */
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Books Grid */
+.book-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/* Book Card */
+.book-card {
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book-image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+.book-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Book Title */
+.book-title {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* View Details Button */
+.view-details-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.view-details-button:hover {
+    background-color: blue;
+}
+.cv-button{
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+    gap: 10px;
+    border-radius: 50%;
 }
 
