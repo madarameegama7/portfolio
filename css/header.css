@@ -1,37 +1,55 @@
-/* General styling for the navbar */
-ul {
-    list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                color: blue;
-                
-}
-
-/* Styling the nav links (centered with rounded background) */
-.menu {
+/* Style the header with a grey background and some padding */
+.header {
     display: flex;
-    justify-content: center;
-    
-    margin: 0 auto;
-}
-
-
-.menu li {
-    padding: 0 40px;
-}
-
-.menu li a {
-    text-decoration: none;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;    /* Vertically center the content */
+    background-color: white;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
     color: black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-}
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: blue;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    color: black;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header {
+        flex-direction: column; /* Stack items vertically on small screens */
 
-.menu li a:hover {
-    color: #555;
-}
+      }
+    
+      .header a {
+        text-align: left;
+        width: 100%; /* Ensure full width for better responsiveness */
+      }
+  }
