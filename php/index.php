@@ -134,7 +134,7 @@
                                 <img src="../images/muse-project.PNG" alt="book" class="book-image">
                             </div>
                             <h2 class="book-title"><span style="font-weight: bold;">Muse Book Network System</span></h2>
-                            <p>Through this platform book lovers can swap, sell, buy books. As well as join with writing groups, communities to interact with community and to enhance creative writing skills</p>
+                            <p>This web-based platform designed to foster a community of book lovers, facilitate book exchanges, and encourage creative writing. The platform aims to address the existing book-sharing solutions by offering a comprehensive and user-friendly experience that combines the best features of online reading platforms and physical book exchange services.</p>
                             
                             <p>Technologies used
                             <span style="font-weight: bold;color:blue;">HTML, CSS, JavaScript, PHP</span></p>
@@ -143,16 +143,22 @@
                             <a href="https://github.com/Kavirubc/php-f.git" class="view-details-button">View Project</a>
                             
                         </div>
-                    
+
                         <div class="book-card">
                             <div class="book-image-container">
-                                <img src="#" alt="book" class="book-image">
+                                <img src="../images/vdsp.png" alt="book" class="book-image">
                             </div>
-                            <h2 class="book-title">Photographic Management System</h2>
-                        
-                            <a href="#" class="view-details-button">View Project</a>
+                            <h2 class="book-title"><span style="font-weight: bold;">Photographic Management System</span></h2>
+                            <p>We developed an automated photographic management system using the MERN stack to address the challenges faced by our client in managing manual processes. This included user management, event reservation, event handling, scheduling staff</p>
+                            
+                            <p>Technologies used
+                            <span style="font-weight: bold;color:blue;">ReactJS, ExpressJS, NodeJS, MongoDB, EmailJS</span></p>
+
+                             <br>
+                            <a href="https://github.com/panchaliSam/ITP-FrontEnd-Photographic-Management-System.git" class="view-details-button">View Project</a>
                             
                         </div>
+                    
                         <div class="book-card">
                             <div class="book-image-container">
                                 <img src="#" alt="book" class="book-image">
