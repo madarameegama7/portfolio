@@ -2,14 +2,15 @@
 <html>
 <head>
     <title>Madara Meegama</title>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <br><br>
-    
+
     <ul>
 
         <li class="menu">
@@ -22,12 +23,11 @@
             </ul>
         </li>
     </ul>
-    
 
-    <section>
+    <section id="home">
     <div class="home">
         <div class="madara-image">
-        <img src="../images/photo.png" alt="Madara Meegama" class="home-image">
+        <img src="images/photo.png" alt="Madara Meegama" class="home-image">
         </div>
         
         <div class="home-text">
@@ -37,19 +37,19 @@
             <!-- Add LinkedIn and GitHub icons -->
             <div class="social-icons">
                <a href="https://www.linkedin.com/in/madara-meegama-296697243/" target="_blank" title="LinkedIn">
-               <img src="../images/linkedin-logo.png" alt="LinkedIn" class="social-icon">
+               <img src="images/linkedin-logo.png" alt="LinkedIn" class="social-icon">
                </a>
 
                 <a href="https://github.com/madarameegama7" target="_blank" title="GitHub">
-                <img src="../images/github-logo.png" alt="GitHub" class="social-icon">
+                <img src="images/github-logo.png" alt="GitHub" class="social-icon">
                 </a>
     </div>
     <div class="cv-button">
     <!-- Open the CV in a new tab -->
-    <a href="../files/Madara Meegama.pdf" target="_blank" class="view-details-button">View CV</a>
+    <a href="files/Madara Meegama.pdf" target="_blank" class="view-details-button">View CV</a>
 
     <!-- Provide a download button -->
-    <a href="../files/Madara Meegama.pdf" download class="view-details-button">Download CV</a>
+    <a href="files/Madara Meegama.pdf" download class="view-details-button">Download CV</a>
 </div>
 
 
@@ -60,7 +60,7 @@
     </div>
     </section>
 
-    <section>
+    <section id="about">
 
         <div class="section-name">
          <p>About Me</p>
@@ -85,10 +85,13 @@
         </div>
     </section>
 
+    <section id="education">
     <div class="section-name">
             <p>Education</p>
             <br>
-        </div>
+    </div>
+    </section>
+    
     <section>
 
     <div class="education">
@@ -96,7 +99,7 @@
         <!-- Container for SLIIT -->
         <div class="education-container">
             <div class="sliit">
-                <img src="../images/sliit-logo.png" alt="SLIIT Logo" class="sliit-logo">
+                <img src="images/sliit-logo.png" alt="SLIIT Logo" class="sliit-logo">
                 <p>SLIIT</p>
                 <p>Bachelor of Science (Hons) in Information Technology,<br>Specialized in Software Engineering</p>
                 <p>Currently at 3rd year 2nd semester</p>
@@ -107,7 +110,7 @@
         <!-- Container for UCSC -->
         <div class="education-container">
             <div class="ucsc">
-                <img src="../images/ucsc-logo.png" alt="UCSC Logo" class="ucsc-logo">
+                <img src="images/ucsc-logo.png" alt="UCSC Logo" class="ucsc-logo">
                 <p>UCSC</p>
                 <p>Bachelor of Science in Information Systems</p>
                 <p>Currently at 2nd year 2nd semester</p>
@@ -119,7 +122,7 @@
     </div>
     </section>
 
-    <section>
+    <section id="experience">
         <div class="section-name">
         <p>Experience</p>
         </div>
@@ -131,10 +134,10 @@
 
                        <div class="book-card">
                             <div class="book-image-container">
-                                <img src="../images/muse-project.PNG" alt="book" class="book-image">
+                                <img src="images/muse-project.PNG" alt="book" class="book-image">
                             </div>
                             <h2 class="book-title"><span style="font-weight: bold;">Muse Book Network System</span></h2>
-                            <p>Through this platform book lovers can swap, sell, buy books. As well as join with writing groups, communities to interact with community and to enhance creative writing skills</p>
+                            <p>This web-based platform designed to foster a community of book lovers, facilitate book exchanges, and encourage creative writing. The platform aims to address the existing book-sharing solutions by offering a comprehensive and user-friendly experience that combines the best features of online reading platforms and physical book exchange services.</p>
                             
                             <p>Technologies used
                             <span style="font-weight: bold;color:blue;">HTML, CSS, JavaScript, PHP</span></p>
@@ -143,49 +146,89 @@
                             <a href="https://github.com/Kavirubc/php-f.git" class="view-details-button">View Project</a>
                             
                         </div>
+
+                        <div class="book-card">
+                            <div class="book-image-container">
+                                <img src="images/vdsp.png" alt="book" class="book-image">
+                            </div>
+                            <h2 class="book-title"><span style="font-weight: bold;">Photographic Management System</span></h2>
+                            <p>We developed an automated photographic management system using the MERN stack to address the challenges faced by our client in managing manual processes. This included user management, event reservation, event handling, scheduling staff</p>
+                            
+                            <p>Technologies used
+                            <span style="font-weight: bold;color:blue;">ReactJS, ExpressJS, NodeJS, MongoDB, EmailJS</span></p>
+
+                             <br>
+                            <a href="https://github.com/panchaliSam/ITP-FrontEnd-Photographic-Management-System.git" class="view-details-button">View Project</a>
+                            
+                        </div>
                     
                         <div class="book-card">
                             <div class="book-image-container">
-                                <img src="#" alt="book" class="book-image">
+                                <img src="images/bookingbreeze.png" alt="book" class="book-image">
                             </div>
-                            <h2 class="book-title">Photographic Management System</h2>
-                        
-                            <a href="#" class="view-details-button">View Project</a>
+                            <h2 class="book-title"><span style="font-weight: bold;">Hotel Reservation System</span></h2>
+                            <p>BookingBreeze is a user-friendly online platform for hotel room bookings in Sri Lanka, offering features like profile customization, filtered searches, feedback submission, and reservation management.</p>
                             
-                        </div>
-                        <div class="book-card">
-                            <div class="book-image-container">
-                                <img src="#" alt="book" class="book-image">
-                            </div>
-                            <h2 class="book-title">Hotel Reservation System</h2>
-                        
-                            <a href="#" class="view-details-button">View Project</a>
+                            <p>Technologies used
+                            <span style="font-weight: bold;color:blue;">Java, JavaFX, MySQL</span></p>
+
+                             <br><br>
+                            <a href="https://github.com/madarameegama7/BookingBreeze" class="view-details-button">View Project</a>
                             
                         </div>
 
                         <div class="book-card">
                             <div class="book-image-container">
-                                <img src="#" alt="book" class="book-image">
+                                <img src="images/vehiclerental.JPG" alt="book" class="book-image">
                             </div>
-                            <h2 class="book-title">Vehicle Rental System</h2>
-                        
-                            <a href="#" class="view-details-button">View Project</a>
+                            <h2 class="book-title"><span style="font-weight: bold;">Vehicle Rental System</span></h2>
+                            <p>carRental is a platforms to book cabs, rent out cars. There are different types of packages for customers based on their requirement. In our platform all types of users can view packages, services, about us, terms and conditions, FAQs, Contact Us, Feedback forms.</p>
+                            
+                            <p>Technologies used
+                            <span style="font-weight: bold;color:blue;">HTML, CSS, PHP, JavaScript, MySQL</span></p>
+
+                             <br>
+                            <a href="https://github.com/madarameegama7/Cab-Rental" class="view-details-button">View Project</a>
                             
                         </div>
 
+
                         <div class="book-card">
                             <div class="book-image-container">
-                                <img src="#" alt="book" class="book-image">
+                                <img src="images/taskqueue.JPG" alt="book" class="book-image">
                             </div>
-                            <h2 class="book-title">Task Management App</h2>
-                        
-                            <a href="#" class="view-details-button">View Project</a>
+                            <h2 class="book-title"><span style="font-weight: bold;">Task Management App</span></h2>
+                            <p>"taskqueue" is an mobile application developed to manage tasks of users. This is developed as individual project for Mobile Application and Development module.</p>
+                            
+                            <p>Technologies used
+                            <span style="font-weight: bold;color:blue;">Kotlin, SQLite</span></p>
+
+                             <br>
+                            <a href="https://github.com/madarameegama7/Task_Queue_App" class="view-details-button">View Project</a>
                             
                         </div>
                 </div>
     </section>
 
+    <section id="contact">
+        <div class="section-name">
+        <p>Contact Me</p>
+        <div class="education-container">
+            <div class="sliit">
+            <img src="images/mail-logo.png" alt="mail" class="mail-icon">
+                <p>madarameegama7@gmail.com</p>
+            </div>
+        </div>
+        
+        </div>
+        
+    </section>
 
-    <?php include 'footer.php'; ?>
+    <footer>
+    <br>
+    <p>Copyright © 2024 Madara Meegama. All Rights Reserved.</p>
+    </footer>
+    
+
 </body>
 </html>

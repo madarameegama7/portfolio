@@ -11,26 +11,6 @@ ul {
                 
 }
 
-/* Style for the logo */
-.logo-container {
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-}
-
-.logo-container img {
-    width: 100%; 
-    height: 100px;
-    margin-right: 10px;
-}
-
-.logo-container h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    margin: 0;
-}
-
 /* Styling the nav links (centered with rounded background) */
 .menu {
     display: flex;
@@ -55,7 +35,3 @@ ul {
 .menu li a:hover {
     color: #555;
 }
-
-
-
-
