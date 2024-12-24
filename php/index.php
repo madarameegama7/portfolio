@@ -10,21 +10,17 @@
 <body>
     <br><br>
     
-    <ul>
-
-        <li class="menu">
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="aboutme">About Me</a></li>
-                <li><a href="education">Education</a></li>
-                <li><a href="experience">Experience</a></li>
-                <li><a href="contact">Contact Me</a></li>
-            </ul>
-        </li>
+    <ul class="menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact Me</a></li>
     </ul>
+
     
 
-    <section>
+    <section id="home">
     <div class="home">
         <div class="madara-image">
         <img src="../images/photo.png" alt="Madara Meegama" class="home-image">
@@ -60,7 +56,7 @@
     </div>
     </section>
 
-    <section>
+    <section id="about">
 
         <div class="section-name">
          <p>About Me</p>
@@ -85,10 +81,13 @@
         </div>
     </section>
 
+    <section id="education">
     <div class="section-name">
             <p>Education</p>
             <br>
-        </div>
+    </div>
+    </section>
+    
     <section>
 
     <div class="education">
@@ -119,7 +118,7 @@
     </div>
     </section>
 
-    <section>
+    <section id="experience">
         <div class="section-name">
         <p>Experience</p>
         </div>
@@ -161,37 +160,58 @@
                     
                         <div class="book-card">
                             <div class="book-image-container">
-                                <img src="#" alt="book" class="book-image">
+                                <img src="../images/bookingbreeze.png" alt="book" class="book-image">
                             </div>
-                            <h2 class="book-title">Hotel Reservation System</h2>
-                        
-                            <a href="#" class="view-details-button">View Project</a>
+                            <h2 class="book-title"><span style="font-weight: bold;">Hotel Reservation System</span></h2>
+                            <p>BookingBreeze is a user-friendly online platform for hotel room bookings in Sri Lanka, offering features like profile customization, filtered searches, feedback submission, and reservation management.</p>
+                            
+                            <p>Technologies used
+                            <span style="font-weight: bold;color:blue;">Java, JavaFX, MySQL</span></p>
+
+                             <br><br>
+                            <a href="https://github.com/madarameegama7/BookingBreeze" class="view-details-button">View Project</a>
                             
                         </div>
 
                         <div class="book-card">
                             <div class="book-image-container">
-                                <img src="#" alt="book" class="book-image">
+                                <img src="../images/vehiclerental.JPG" alt="book" class="book-image">
                             </div>
-                            <h2 class="book-title">Vehicle Rental System</h2>
-                        
-                            <a href="#" class="view-details-button">View Project</a>
+                            <h2 class="book-title"><span style="font-weight: bold;">Vehicle Rental System</span></h2>
+                            <p>carRental is a platforms to book cabs, rent out cars. There are different types of packages for customers based on their requirement. In our platform all types of users can view packages, services, about us, terms and conditions, FAQs, Contact Us, Feedback forms.</p>
+                            
+                            <p>Technologies used
+                            <span style="font-weight: bold;color:blue;">HTML, CSS, PHP, JavaScript, MySQL</span></p>
+
+                             <br>
+                            <a href="https://github.com/madarameegama7/Cab-Rental" class="view-details-button">View Project</a>
                             
                         </div>
 
+
                         <div class="book-card">
                             <div class="book-image-container">
-                                <img src="#" alt="book" class="book-image">
+                                <img src="../images/taskqueue.JPG" alt="book" class="book-image">
                             </div>
-                            <h2 class="book-title">Task Management App</h2>
-                        
-                            <a href="#" class="view-details-button">View Project</a>
+                            <h2 class="book-title"><span style="font-weight: bold;">Task Management App</span></h2>
+                            <p>"taskqueue" is an mobile application developed to manage tasks of users. This is developed as individual project for Mobile Application and Development module.</p>
+                            
+                            <p>Technologies used
+                            <span style="font-weight: bold;color:blue;">Kotlin, SQLite</span></p>
+
+                             <br>
+                            <a href="https://github.com/madarameegama7/Task_Queue_App" class="view-details-button">View Project</a>
                             
                         </div>
                 </div>
     </section>
 
+    <section id="#contact">
+        <div class="section-name">
+        <p>Contact Me</p>
+        </div>
+        
+    </section>
 
-    <?php include 'footer.php'; ?>
 </body>
 </html>
